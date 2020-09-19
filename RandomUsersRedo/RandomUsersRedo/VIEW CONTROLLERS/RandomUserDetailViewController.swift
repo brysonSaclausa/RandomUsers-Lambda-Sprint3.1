@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RandomUserDetailViewController.swift
 //  RandomUsersRedo
 //
 //  Created by BrysonSaclausa on 9/18/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RandomUserDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

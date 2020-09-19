@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iEO-Ev-MN5">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Contacts-->
+        <!--Randoms-->
         <scene sceneID="W1M-hh-Lkd">
             <objects>
-                <tableViewController id="nhY-er-fkB" customClass="ContactsTableViewController" customModule="Random_Users" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="nhY-er-fkB" customClass="RandomUserTableViewController" customModule="RandomUsersRedo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8jG-sD-vXs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactCell" rowHeight="99" id="H5b-HW-jVt" customClass="ContactTableViewCell" customModule="Random_Users" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactCell" rowHeight="99" id="H5b-HW-jVt" customClass="RandomUserTableViewCell" customModule="RandomUsersRedo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="99"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H5b-HW-jVt" id="YuM-KR-zd6">
@@ -58,16 +58,16 @@
                             <outlet property="delegate" destination="nhY-er-fkB" id="bOu-FN-coi"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Contacts" id="RrM-2r-s27"/>
+                    <navigationItem key="navigationItem" title="Randoms" id="RrM-2r-s27"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ZP-Ja-iVe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1080" y="-581"/>
         </scene>
-        <!--Contact Detail View Controller-->
+        <!--Random User Detail View Controller-->
         <scene sceneID="PHZ-L2-58d">
             <objects>
-                <viewController id="C8q-TW-MQG" customClass="ContactDetailViewController" customModule="Random_Users" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="C8q-TW-MQG" customClass="RandomUserDetailViewController" customModule="RandomUsersRedo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EaN-ml-05u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
