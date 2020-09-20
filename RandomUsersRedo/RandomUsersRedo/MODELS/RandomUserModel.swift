@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+struct RandomUser : Codable {
+    let name: String
+    let number: String
+    let email: String
+    let picture: String
+    
+   
+    
+    
+    
+    
+}
