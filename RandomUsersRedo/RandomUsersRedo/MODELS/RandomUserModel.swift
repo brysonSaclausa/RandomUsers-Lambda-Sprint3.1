@@ -13,10 +13,4 @@ struct RandomUser : Codable {
     let number: String
     let email: String
     let picture: String
-    
-   
-    
-    
-    
-    
 }
